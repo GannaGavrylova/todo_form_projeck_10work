@@ -1,0 +1,25 @@
+.header_container {
+  background-color: #3f5cc0;
+  display: flex;
+}
+
+.header_container > img {
+  padding: 38px 368px 38px 70px;
+}
+
+.header_container > a {
+  text-align: center;
+  color: #090808;
+  margin-top: 52px;
+  text-decoration: none;
+  padding-right: 60px;
+  font-weight: 700;
+}
+.header_container > a:not(:last-child) {
+  border-right: 1px solid #090808;
+  height: 38px;
+}
+
+.header_container > a:not(:first-child) {
+  padding-left: 60px;
+}
